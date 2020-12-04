@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFCF3E9D257A72B200E135BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF3E9C257A72B200E135BC /* AppDelegate.swift */; };
+		FFCF3E9F257A72B200E135BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF3E9E257A72B200E135BC /* SceneDelegate.swift */; };
+		FFCF3EA1257A72B200E135BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF3EA0257A72B200E135BC /* ViewController.swift */; };
+		FFCF3EA4257A72B200E135BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCF3EA2257A72B200E135BC /* Main.storyboard */; };
+		FFCF3EA6257A72B300E135BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCF3EA5257A72B300E135BC /* Assets.xcassets */; };
+		FFCF3EA9257A72B300E135BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCF3EA7257A72B300E135BC /* LaunchScreen.storyboard */; };
+		FFCF3EB4257A72B300E135BC /* Swift_Sodium_Test_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF3EB3257A72B300E135BC /* Swift_Sodium_Test_AppTests.swift */; };
+		FFCF3EBF257A72B300E135BC /* Swift_Sodium_Test_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF3EBE257A72B300E135BC /* Swift_Sodium_Test_AppUITests.swift */; };
+		FFCF3ED1257A72FF00E135BC /* Clibsodium in Frameworks */ = {isa = PBXBuildFile; productRef = FFCF3ED0257A72FF00E135BC /* Clibsodium */; };
+		FFCF3ED3257A72FF00E135BC /* Sodium in Frameworks */ = {isa = PBXBuildFile; productRef = FFCF3ED2257A72FF00E135BC /* Sodium */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFCF3EB0257A72B300E135BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFCF3E91257A72B200E135BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCF3E98257A72B200E135BC;
+			remoteInfo = "Swift Sodium Test App";
+		};
+		FFCF3EBB257A72B300E135BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFCF3E91257A72B200E135BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCF3E98257A72B200E135BC;
+			remoteInfo = "Swift Sodium Test App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFCF3E99257A72B200E135BC /* Swift Sodium Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Sodium Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCF3E9C257A72B200E135BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFCF3E9E257A72B200E135BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFCF3EA0257A72B200E135BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFCF3EA3257A72B200E135BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFCF3EA5257A72B300E135BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFCF3EA8257A72B300E135BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFCF3EAA257A72B300E135BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCF3EAF257A72B300E135BC /* Swift Sodium Test AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Sodium Test AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCF3EB3257A72B300E135BC /* Swift_Sodium_Test_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Sodium_Test_AppTests.swift; sourceTree = "<group>"; };
+		FFCF3EB5257A72B300E135BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCF3EBA257A72B300E135BC /* Swift Sodium Test AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Sodium Test AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCF3EBE257A72B300E135BC /* Swift_Sodium_Test_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Sodium_Test_AppUITests.swift; sourceTree = "<group>"; };
+		FFCF3EC0257A72B300E135BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFCF3E96257A72B200E135BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCF3ED1257A72FF00E135BC /* Clibsodium in Frameworks */,
+				FFCF3ED3257A72FF00E135BC /* Sodium in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCF3EAC257A72B300E135BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCF3EB7257A72B300E135BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFCF3E90257A72B200E135BC = {
+			isa = PBXGroup;
+			children = (
+				FFCF3E9B257A72B200E135BC /* Swift Sodium Test App */,
+				FFCF3EB2257A72B300E135BC /* Swift Sodium Test AppTests */,
+				FFCF3EBD257A72B300E135BC /* Swift Sodium Test AppUITests */,
+				FFCF3E9A257A72B200E135BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFCF3E9A257A72B200E135BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF3E99257A72B200E135BC /* Swift Sodium Test App.app */,
+				FFCF3EAF257A72B300E135BC /* Swift Sodium Test AppTests.xctest */,
+				FFCF3EBA257A72B300E135BC /* Swift Sodium Test AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFCF3E9B257A72B200E135BC /* Swift Sodium Test App */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF3E9C257A72B200E135BC /* AppDelegate.swift */,
+				FFCF3E9E257A72B200E135BC /* SceneDelegate.swift */,
+				FFCF3EA0257A72B200E135BC /* ViewController.swift */,
+				FFCF3EA2257A72B200E135BC /* Main.storyboard */,
+				FFCF3EA5257A72B300E135BC /* Assets.xcassets */,
+				FFCF3EA7257A72B300E135BC /* LaunchScreen.storyboard */,
+				FFCF3EAA257A72B300E135BC /* Info.plist */,
+			);
+			path = "Swift Sodium Test App";
+			sourceTree = "<group>";
+		};
+		FFCF3EB2257A72B300E135BC /* Swift Sodium Test AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF3EB3257A72B300E135BC /* Swift_Sodium_Test_AppTests.swift */,
+				FFCF3EB5257A72B300E135BC /* Info.plist */,
+			);
+			path = "Swift Sodium Test AppTests";
+			sourceTree = "<group>";
+		};
+		FFCF3EBD257A72B300E135BC /* Swift Sodium Test AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF3EBE257A72B300E135BC /* Swift_Sodium_Test_AppUITests.swift */,
+				FFCF3EC0257A72B300E135BC /* Info.plist */,
+			);
+			path = "Swift Sodium Test AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFCF3E98257A72B200E135BC /* Swift Sodium Test App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCF3EC3257A72B300E135BC /* Build configuration list for PBXNativeTarget "Swift Sodium Test App" */;
+			buildPhases = (
+				FFCF3E95257A72B200E135BC /* Sources */,
+				FFCF3E96257A72B200E135BC /* Frameworks */,
+				FFCF3E97257A72B200E135BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Sodium Test App";
+			packageProductDependencies = (
+				FFCF3ED0257A72FF00E135BC /* Clibsodium */,
+				FFCF3ED2257A72FF00E135BC /* Sodium */,
+			);
+			productName = "Swift Sodium Test App";
+			productReference = FFCF3E99257A72B200E135BC /* Swift Sodium Test App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFCF3EAE257A72B300E135BC /* Swift Sodium Test AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCF3EC6257A72B300E135BC /* Build configuration list for PBXNativeTarget "Swift Sodium Test AppTests" */;
+			buildPhases = (
+				FFCF3EAB257A72B300E135BC /* Sources */,
+				FFCF3EAC257A72B300E135BC /* Frameworks */,
+				FFCF3EAD257A72B300E135BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFCF3EB1257A72B300E135BC /* PBXTargetDependency */,
+			);
+			name = "Swift Sodium Test AppTests";
+			productName = "Swift Sodium Test AppTests";
+			productReference = FFCF3EAF257A72B300E135BC /* Swift Sodium Test AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFCF3EB9257A72B300E135BC /* Swift Sodium Test AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCF3EC9257A72B300E135BC /* Build configuration list for PBXNativeTarget "Swift Sodium Test AppUITests" */;
+			buildPhases = (
+				FFCF3EB6257A72B300E135BC /* Sources */,
+				FFCF3EB7257A72B300E135BC /* Frameworks */,
+				FFCF3EB8257A72B300E135BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFCF3EBC257A72B300E135BC /* PBXTargetDependency */,
+			);
+			name = "Swift Sodium Test AppUITests";
+			productName = "Swift Sodium Test AppUITests";
+			productReference = FFCF3EBA257A72B300E135BC /* Swift Sodium Test AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFCF3E91257A72B200E135BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					FFCF3E98257A72B200E135BC = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					FFCF3EAE257A72B300E135BC = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = FFCF3E98257A72B200E135BC;
+					};
+					FFCF3EB9257A72B300E135BC = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = FFCF3E98257A72B200E135BC;
+					};
+				};
+			};
+			buildConfigurationList = FFCF3E94257A72B200E135BC /* Build configuration list for PBXProject "Swift Sodium Test App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFCF3E90257A72B200E135BC;
+			packageReferences = (
+				FFCF3ECF257A72FF00E135BC /* XCRemoteSwiftPackageReference "swift-sodium" */,
+			);
+			productRefGroup = FFCF3E9A257A72B200E135BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFCF3E98257A72B200E135BC /* Swift Sodium Test App */,
+				FFCF3EAE257A72B300E135BC /* Swift Sodium Test AppTests */,
+				FFCF3EB9257A72B300E135BC /* Swift Sodium Test AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFCF3E97257A72B200E135BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCF3EA9257A72B300E135BC /* LaunchScreen.storyboard in Resources */,
+				FFCF3EA6257A72B300E135BC /* Assets.xcassets in Resources */,
+				FFCF3EA4257A72B200E135BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCF3EAD257A72B300E135BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCF3EB8257A72B300E135BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFCF3E95257A72B200E135BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCF3EA1257A72B200E135BC /* ViewController.swift in Sources */,
+				FFCF3E9D257A72B200E135BC /* AppDelegate.swift in Sources */,
+				FFCF3E9F257A72B200E135BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCF3EAB257A72B300E135BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCF3EB4257A72B300E135BC /* Swift_Sodium_Test_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCF3EB6257A72B300E135BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCF3EBF257A72B300E135BC /* Swift_Sodium_Test_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFCF3EB1257A72B300E135BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFCF3E98257A72B200E135BC /* Swift Sodium Test App */;
+			targetProxy = FFCF3EB0257A72B300E135BC /* PBXContainerItemProxy */;
+		};
+		FFCF3EBC257A72B300E135BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFCF3E98257A72B200E135BC /* Swift Sodium Test App */;
+			targetProxy = FFCF3EBB257A72B300E135BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFCF3EA2257A72B200E135BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFCF3EA3257A72B200E135BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFCF3EA7257A72B300E135BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFCF3EA8257A72B300E135BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFCF3EC1257A72B300E135BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFCF3EC2257A72B300E135BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFCF3EC4257A72B300E135BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHHG5GP4YP;
+				INFOPLIST_FILE = "Swift Sodium Test App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JO.Swift-Sodium-Test-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFCF3EC5257A72B300E135BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHHG5GP4YP;
+				INFOPLIST_FILE = "Swift Sodium Test App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JO.Swift-Sodium-Test-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFCF3EC7257A72B300E135BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHHG5GP4YP;
+				INFOPLIST_FILE = "Swift Sodium Test AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JO.Swift-Sodium-Test-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Sodium Test App.app/Swift Sodium Test App";
+			};
+			name = Debug;
+		};
+		FFCF3EC8257A72B300E135BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHHG5GP4YP;
+				INFOPLIST_FILE = "Swift Sodium Test AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JO.Swift-Sodium-Test-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Sodium Test App.app/Swift Sodium Test App";
+			};
+			name = Release;
+		};
+		FFCF3ECA257A72B300E135BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHHG5GP4YP;
+				INFOPLIST_FILE = "Swift Sodium Test AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JO.Swift-Sodium-Test-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift Sodium Test App";
+			};
+			name = Debug;
+		};
+		FFCF3ECB257A72B300E135BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHHG5GP4YP;
+				INFOPLIST_FILE = "Swift Sodium Test AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JO.Swift-Sodium-Test-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift Sodium Test App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFCF3E94257A72B200E135BC /* Build configuration list for PBXProject "Swift Sodium Test App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCF3EC1257A72B300E135BC /* Debug */,
+				FFCF3EC2257A72B300E135BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCF3EC3257A72B300E135BC /* Build configuration list for PBXNativeTarget "Swift Sodium Test App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCF3EC4257A72B300E135BC /* Debug */,
+				FFCF3EC5257A72B300E135BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCF3EC6257A72B300E135BC /* Build configuration list for PBXNativeTarget "Swift Sodium Test AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCF3EC7257A72B300E135BC /* Debug */,
+				FFCF3EC8257A72B300E135BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCF3EC9257A72B300E135BC /* Build configuration list for PBXNativeTarget "Swift Sodium Test AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCF3ECA257A72B300E135BC /* Debug */,
+				FFCF3ECB257A72B300E135BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FFCF3ECF257A72FF00E135BC /* XCRemoteSwiftPackageReference "swift-sodium" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jedisct1/swift-sodium.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FFCF3ED0257A72FF00E135BC /* Clibsodium */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFCF3ECF257A72FF00E135BC /* XCRemoteSwiftPackageReference "swift-sodium" */;
+			productName = Clibsodium;
+		};
+		FFCF3ED2257A72FF00E135BC /* Sodium */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFCF3ECF257A72FF00E135BC /* XCRemoteSwiftPackageReference "swift-sodium" */;
+			productName = Sodium;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FFCF3E91257A72B200E135BC /* Project object */;
+}

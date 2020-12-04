@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Sodium",
+        "repositoryURL": "https://github.com/jedisct1/swift-sodium.git",
+        "state": {
+          "branch": "master",
+          "revision": "3c10d39e0ead653ba980b6c64b6d4e5493ac64d9",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
